@@ -13,6 +13,50 @@
   z-index: 0;
 }
 
+/* ################ Bootstrap Navbar */
+.Bootstrap-Navbar {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.navbar {
+  height: 10vh;
+  background: #000 !important;
+  padding: 0;
+}
+
+#responsive-navbar-nav {
+  justify-content: flex-end;
+  background: black;
+}
+
+.navbar a {
+  font-size: 1.1rem;
+  margin: 0.6rem 1rem 0.6rem 1rem;
+}
+
+.navbar-brand {
+  margin: 0rem 1rem !important;
+  font-size: 2rem !important;
+}
+
+.navbar-toggler {
+  margin: 0rem 1rem;
+}
+
+.navbar-nav .active {
+  display: block !important;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+a:hover {
+  font-size: 20px;
+}
+
 /*################ Navbar ##############*/
 .nav {
   background: black;

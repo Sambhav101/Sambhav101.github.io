@@ -3,11 +3,12 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import BootstrapNavbar from "./components/BootstrapNavbar";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
+    <div>
+      <BootstrapNavbar />
       <Header />
       <Projects />
       <Contact />
