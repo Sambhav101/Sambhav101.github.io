@@ -6,14 +6,14 @@ import Sidebar from "./components/Sidebar";
 import Header from "./components/Header";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import BootstrapNavbar from "./components/BootstrapNavbar";
 
 function App() {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="App">
-      <Navbar />
-      <Sidebar open={open} setOpen={setOpen} />
+    <div>
+      <BootstrapNavbar />
       <Header />
       <Projects />
       <Contact />
