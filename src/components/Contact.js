@@ -63,7 +63,7 @@ const Contact = () => {
         </div>
       </div>
       <div className="footer">
-        <p>Designed by Sambhav Shrestha</p>
+        <p>© 2021 Sambhav Shrestha. All Rights Reserved</p>
       </div>
     </div>
   );

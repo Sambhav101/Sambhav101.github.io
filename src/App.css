@@ -360,16 +360,11 @@
 
 /* ##################### Media Query ###################### */
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 850px) {
   .nav {
     transition: 0.8s all ease;
   }
 
-  .about-contents {
-  }
-}
-
-@media screen and (max-width: 900px) {
   .hamburger-menu {
     display: block;
     position: absolute;
@@ -390,9 +385,6 @@
 
   .header-top p {
     font-size: 2.5vw;
-  }
-
-  .display-profile {
   }
 
   .about-contents p {
