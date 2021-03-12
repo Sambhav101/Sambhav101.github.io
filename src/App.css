@@ -253,9 +253,109 @@
 }
 
 /* ######################### Contact ####################### */
-.contact {
+.contact-page {
   background: #0c1661;
-  height: 40vh;
+  color: white;
+}
+
+.contact-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+
+.contact-title {
+  text-align: center;
+  font-weight: 300;
+}
+
+.contact-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.contact-items {
+  background: rgb(110, 177, 110);
+  color: black;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 40px 10px 20px;
+  border-radius: 15px;
+  margin-right: 50px;
+}
+
+.contact-items h3 {
+  font-weight: 300;
+  font-size: 26px;
+}
+
+.contact-info {
+  padding: 30px 0px 0px 40px;
+  font-size: 16px;
+}
+
+.contact-info span {
+  padding-left: 20px;
+}
+
+.forms-container {
+  padding-left: 20px;
+}
+
+.form-title h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 200;
+  font-size: 26px;
+  padding-left: 20px;
+}
+
+.form-elements {
+  padding-left: 20px;
+}
+
+.input-box {
+  display: block;
+  width: 300px;
+  height: 25px;
+  font-size: 16px;
+  border-radius: 10px;
+  border-color: red;
+  padding: 3px 10px;
+  margin-top: 10px;
+}
+
+.text-box {
+  width: 400px;
+  height: 150px;
+}
+
+.button-submit {
+  background-color: #4caf50;
+  color: black;
+  display: block;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 20%;
+  cursor: pointer;
+}
+
+.button-submit:hover {
+  background: darkgreen;
+}
+
+.footer {
+  background: rgb(33, 33, 70);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  text-align: center;
 }
 
 /* ##################### Media Query ###################### */
@@ -302,5 +402,18 @@
   .projects-list {
     display: grid;
     grid-template-columns: 1fr;
+  }
+
+  .contact-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .contact-items {
+    align-self: center;
+    margin-bottom: 30px;
+    margin-right: 0px;
   }
 }
