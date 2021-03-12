@@ -1,38 +1,306 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+
+/***************** Particles ################*/
+.header #tsparticles {
+  position: absolute;
+  height: 90vh;
+  width: 100%;
+  z-index: 0;
+}
+
+/*################ Navbar ##############*/
+.nav {
+  background: black;
+  height: 10vh;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: flex-end;
+  z-index: 1;
+  height: 10vh;
+  padding: 0px 24px;
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+.nav-wrapper {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding: 15px 5px;
+}
+
+.nav-item a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.6vw;
+  cursor: pointer;
+}
+
+.nav-item a:active {
+  border-bottom: 3px solid #01bf71;
+}
+
+.nav-item a:hover {
+  color: burlywood;
+}
+
+/*###################   Header ####################*/
+
+.header {
+  background: #00345d;
+  color: white;
+  width: 100%;
+  height: 90vh;
+}
+
+.header-container {
+  margin: 0 auto;
+  position: absolute;
+}
+
+.header-top {
+  width: 100%;
+}
+
+.header-top h1 {
   text-align: center;
+  margin: auto;
+  width: 85%;
+  font-size: 8vw;
+  font-weight: 100;
+  letter-spacing: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-top p {
+  text-align: center;
+  font-size: 1.8vw;
+  font-weight: 100;
+  font-family: Verdana, sans-serif;
+  padding: 15px 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.display-profile img {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  width: 50%;
+  max-width: 20vh;
+  max-height: 20vh;
+  object-fit: cover;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.link-containers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8vw;
+  height: 8vh;
+  margin: auto;
+  padding: 0px 100px;
+}
+
+.icon {
+  font-size: 4.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6vw;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.icon:hover {
+  font-size: 7vh;
+}
+
+.about_me_container {
+  width: 60%;
+  margin: auto;
+  padding-top: 1rem;
+  overflow: hidden;
+}
+
+.about-contents {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-around;
+}
+
+.about-contents p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 1.4vw;
+  padding: 0.5rem;
+  letter-spacing: 2px;
+  line-height: 2;
+}
+
+/* ##################### Projects ######################## */
+
+.projects {
+  background: #11163a;
   color: white;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+#project {
+  height: 10vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.project-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  margin-bottom: 30px;
+}
+
+.project-title h1 {
+  font-size: 3rem;
+  font-weight: 100;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.projects-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10vh;
+}
+
+.category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  width: 60%;
+  display: none;
+}
+
+.category button {
+  padding: 5px;
+  margin: 10px;
+  font-size: 1.2rem;
+  display: none;
+}
+
+.projects-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 40px;
+  column-gap: 40px;
+  margin: auto;
+}
+
+.project {
+  background: #5c4b83;
+  box-shadow: 0 10px 10px 0 rgba(3, 2, 2, 0.2), 0 6px 20px 0 rgba(2, 1, 1, 0.19);
+  padding: 2px;
+  color: #141111;
+  cursor: pointer;
+  margin: auto;
+}
+
+.static {
+  width: 400px;
+  height: 300px;
+  margin: auto;
+}
+
+.active {
+  display: none;
+}
+
+.image-data:hover .static {
+  display: none;
+}
+
+.image-data:hover .active {
+  display: block;
+  width: 400px;
+  height: 300px;
+  margin: auto;
+}
+
+.project-caption a {
+  display: none;
+}
+
+.project-caption {
+  width: 380px;
+  margin: auto;
+  color: rgb(2, 2, 0);
+}
+
+.project-caption {
+}
+
+/* ######################### Contact ####################### */
+.contact {
+  background: #0c1661;
+  height: 40vh;
+}
+
+/* ##################### Media Query ###################### */
+
+@media screen and (max-width: 960px) {
+  .nav {
+    transition: 0.8s all ease;
   }
-  to {
-    transform: rotate(360deg);
+
+  .about-contents {
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .hamburger-menu {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 4vh;
+    cursor: pointer;
+  }
+
+  .nav-wrapper {
+    display: none;
+  }
+
+  .header-top h1 {
+    font-size: 9vh;
+  }
+
+  .header-top p {
+    font-size: 2.5vw;
+  }
+
+  .display-profile {
+  }
+
+  .about-contents p {
+    font-size: 1.8vh;
+  }
+
+  .projects-list {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }
