@@ -181,6 +181,7 @@
   width: 100%;
   position: static;
   overflow: hidden;
+  padding-bottom: 5vh;
 }
 
 #experience {
@@ -189,7 +190,7 @@
 
 .education-title h1 {
   text-align: center;
-  font-size: 6vmin;
+  font-size: 6vh;
 }
 
 .education-data {
@@ -284,7 +285,7 @@
 
 .projects-list {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   row-gap: 40px;
   column-gap: 40px;
   margin: auto;
@@ -348,7 +349,7 @@
   text-decoration: none;
   color: white;
   background: rgba(129, 129, 133, 0.788);
-  padding: 2vh;
+  padding: 2vmin;
   border: 1px solid white;
   border-radius: 5px;
 }
@@ -389,7 +390,7 @@
 
 .contact-body {
   margin: auto;
-  width: 60%;
+  width: 70%;
 }
 
 .contact-text {
@@ -434,11 +435,10 @@
   align-items: center;
 }
 
-/* ##################### Media Query ###################### */
-
-@media screen and (max-width: 1200px) {
+/* ##################### Media Queries ###################### */
+@media (min-aspect-ratio: 16/10) {
   .projects-list {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
@@ -460,16 +460,12 @@
     font-size: 1.8vmax;
   }
 
-  .projects-list {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-
   .contact-body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    width: 80%;
   }
 
   .contact-items {
@@ -479,13 +475,24 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+  .projects-list {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
 @media screen and (max-width: 450px) {
   .education-data {
     width: 100%;
   }
+
+  .contact-body {
+    width: 100%;
+  }
 }
 
-@media screen and (max-height: 610px) {
+@media screen and (max-height: 538px) {
   .navbar {
     height: 10vh;
   }
