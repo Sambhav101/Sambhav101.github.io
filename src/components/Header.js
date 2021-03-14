@@ -1,11 +1,11 @@
 import React from "react";
-import dp from "../images/dp.jpeg";
+import dp from "../images/dp.png";
 import {
   FaGithub,
   FaLinkedin,
   FaFacebook,
   FaTwitter,
-  FaRegPlusSquare,
+  FaInstagram,
 } from "react-icons/fa";
 import Particles from "react-particles-js";
 
@@ -75,6 +75,14 @@ const Header = () => {
           <div className="icon">
             <a href="https://twitter.com/i_m_sambhav" target="_blank">
               <FaTwitter color="fff" />
+            </a>
+          </div>
+          <div className="icon">
+            <a
+              href="https://www.instagram.com/sambhav_shrestha1/"
+              target="_blank"
+            >
+              <FaInstagram color="#fff" />
             </a>
           </div>
           <div className="icon">

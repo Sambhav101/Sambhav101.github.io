@@ -9,11 +9,15 @@ const MenuItems = ({ menuItem }) => {
             <div className="image-data">
               <img class="static" src={item.image} alt="" />
               <img class="active" src={item.gif} alt="" />
+              <div className="overlay">
+                <a href={item.link} target="_blank">
+                  {item.icon}
+                </a>
+              </div>
             </div>
             <div className="project-caption">
               <h3>{item.title}</h3>
               <p>{item.description}</p>
-              <a href={item.link}>{item.icon}</a>
             </div>
           </div>
         );

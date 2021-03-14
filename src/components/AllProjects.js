@@ -8,14 +8,13 @@ import project4 from "../images/project4.webp";
 import project4_animation from "../images/project4_animation.gif";
 import project5 from "../images/project5.jpeg";
 import project5_animation from "../images/project5_animation.gif";
-import { FaGgCircle } from "react-icons/fa";
 
 const projects = [
   {
     id: 1,
     category: "Neural Network",
-    link: "www.github.com/Sambhav101/Stocks",
-    icon: "G",
+    link: "https://www.github.com/Sambhav101/Stocks",
+    icon: "View Source",
     image: project1,
     gif: project1_animation,
     title: "Stock Prediction AI",
@@ -25,8 +24,8 @@ const projects = [
   {
     id: 2,
     category: "Python",
-    link: "www.github.com",
-    icon: "G",
+    link: "https://www.github.com/Sambhav101/Minesweeper",
+    icon: "View Source",
     image: project2,
     gif: project2_animation,
     title: "Minesweeper AI",
@@ -36,8 +35,8 @@ const projects = [
   {
     id: 3,
     category: "Python",
-    link: "www.github.com",
-    icon: "G",
+    link: "https://www.github.com/Sambhav101/TicTacToe",
+    icon: "View Source",
     image: project3,
     gif: project3_animation,
     title: "TicTacToe",
@@ -47,8 +46,8 @@ const projects = [
   {
     id: 4,
     category: "React JS",
-    link: "www.github.com",
-    icon: "G",
+    link: "https://www.github.com/Sambhav101/personal-portfolio-website",
+    icon: "View Source",
     image: project4,
     gif: project4_animation,
     title: "React Portfolio Website",
@@ -57,9 +56,9 @@ const projects = [
   },
   {
     id: 5,
-    category: "Java",
-    link: "www.github.com",
-    icon: "G",
+    category: "Android",
+    link: "https://www.github.com/Sambhav101/YearbookProject",
+    icon: "View Source",
     image: project5,
     gif: project5_animation,
     title: "Yearbook App",
