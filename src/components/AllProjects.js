@@ -30,7 +30,7 @@ const projects = [
     gif: project2_animation,
     title: "Minesweeper AI",
     description:
-      "Crated an AI that uses inference and backtracking algorithm to calculate safe moves in the board",
+      "Created an AI that uses inference and backtracking to calculate safe moves in the board",
   },
   {
     id: 3,

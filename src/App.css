@@ -1,3 +1,19 @@
+:root {
+  --header-font: "Segoe UI";
+  --primary-white: #ffffff;
+  --primary-black: #000000;
+  --navbar-background: rgb(11, 8, 31);
+  --header-background: #1d2549;
+  --education-background: #1b1b42;
+  --project-background: #1f1e55;
+  --contact-background: #17254e;
+  --footer-background: rgb(19, 17, 26);
+  --title-color: #ffffff;
+}
+
+/* some customizations
+colors: #00345d, #12293a */
+
 * {
   margin: 0;
   padding: 0;
@@ -21,14 +37,14 @@
 }
 
 .navbar {
-  background: rgb(11, 8, 31) !important;
+  background: var(--navbar-background) !important;
   padding: 0;
   height: 10vh;
 }
 
 #responsive-navbar-nav {
   justify-content: flex-end;
-  background: rgb(11, 8, 31);
+  background: var(--navbar-background) !important;
 }
 
 #responsive-navbar-nav a {
@@ -81,7 +97,9 @@
 /*###################   Header ####################*/
 
 .header {
-  background: #00345d;
+  background: var(--header-background);
+  /* background-image: url("images/bg.jpeg");
+  background-size: cover; */
   color: white;
   width: 100%;
   height: 90vh;
@@ -176,8 +194,8 @@
 /* ####################### Education #################### */
 
 .experience-page {
-  background: rgb(14, 33, 78);
-  color: white;
+  background: var(--education-background);
+  color: var(--primary-white);
   width: 100%;
   position: static;
   overflow: hidden;
@@ -190,7 +208,9 @@
 
 .education-title h1 {
   text-align: center;
-  font-size: 6vh;
+  font-size: 5vh;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: var(--title-color);
 }
 
 .education-data {
@@ -204,7 +224,7 @@
   column-gap: 4vmin;
   margin: 4vmin;
   padding: 1.5vmin;
-  background: rgb(40, 4, 80);
+  background: rgb(75, 71, 110);
   border: 1px solid rgb(35, 66, 206);
   border-radius: 10px;
   box-shadow: 0 10px 10px 0 rgba(3, 2, 2, 0.2), 0 6px 20px 0 rgba(2, 1, 1, 0.19);
@@ -221,7 +241,7 @@
   justify-content: center;
   align-items: center;
   font-size: 20vmin;
-  color: rgb(234, 214, 240);
+  color: rgb(240, 224, 228);
 }
 
 .school-description h3 {
@@ -240,10 +260,16 @@
   font-size: 2vmin;
 }
 
+.school-description h3,
+.courses p,
+.school-info p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
 /* ##################### Projects ######################## */
 
 .projects {
-  background: #11163a;
+  background: var(--project-background);
   color: white;
   width: 100%;
 }
@@ -253,10 +279,12 @@
 }
 
 .project-title h1 {
-  font-size: 6vh;
+  font-size: 5vh;
   font-weight: 100;
   text-align: center;
   margin-bottom: 4vh;
+  color: var(--title-color);
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .projects-data {
@@ -292,14 +320,14 @@
 }
 
 .project {
-  background: #dcdbdf;
-  box-shadow: 0 10px 10px 0 rgba(3, 2, 2, 0.2), 0 6px 20px 0 rgba(2, 1, 1, 0.19);
+  background: #fcf7f6;
+  box-shadow: 0 5px 10px 0 rgba(3, 2, 2, 0.2), 0 6px 20px 0 rgba(2, 1, 1, 0.19);
   padding: 2px;
   color: #141111;
   cursor: pointer;
   margin: auto;
   border-radius: 10px;
-  border: 2px solid rgb(82, 47, 179);
+  border: 2px solid rgb(23, 6, 114);
 }
 
 .image-data {
@@ -367,6 +395,7 @@
 
 .project-caption h3 {
   font-size: 3.2vmin;
+  padding-top: 1vh;
 }
 
 .project-caption p {
@@ -376,16 +405,18 @@
 /* ######################### Contact ####################### */
 
 .contact-page {
-  background: #0c1661;
-  color: white;
+  background: var(--contact-background);
+  color: var(--primary-white);
   padding-top: 10vh;
 }
 
 .contact-title {
   text-align: center;
   font-weight: 300;
-  font-size: 4vh;
+  font-size: 5vh;
   padding: 3vh;
+  color: var(--title-color);
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .contact-body {
@@ -395,16 +426,16 @@
 
 .contact-text {
   text-align: center;
-  font-size: 2vh;
+  font-size: 2.1vh;
   padding: 2vh;
 }
 
 .contact-text p {
   padding: 1vh;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .contact-items {
-  color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -422,12 +453,12 @@
 }
 
 .contact-info a {
-  color: white;
+  color: var(--primary-white);
 }
 
 .footer {
-  background: rgb(33, 33, 70);
-  color: rgb(153, 149, 149);
+  background: var(--footer-background);
+  color: rgb(161, 159, 159);
   font-size: 1.6vh;
   height: 8vh;
   display: flex;
