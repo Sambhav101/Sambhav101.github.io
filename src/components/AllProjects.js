@@ -20,6 +20,7 @@ const projects = [
     title: "Stock Prediction AI",
     description:
       "Designed a neural network that uses Long Short Term Memory model to predict the stock prices",
+    tools: "Python | LSTM | Matplolib | TensorFlow",
   },
   {
     id: 2,
@@ -31,6 +32,7 @@ const projects = [
     title: "Minesweeper AI",
     description:
       "Created an AI that uses inference and backtracking to calculate safe moves in the board",
+    tools: "Python | pyGame",
   },
   {
     id: 3,
@@ -42,6 +44,7 @@ const projects = [
     title: "TicTacToe",
     description:
       "Developed an undefeatable tic-tac-toe bot using minmax algorithm",
+    tools: "Python | pyGame",
   },
   {
     id: 4,
@@ -53,6 +56,7 @@ const projects = [
     title: "React Portfolio Website",
     description:
       "A portfolio website featuring my projects and experience built using React",
+    tools: "React | CSS | Bootstrap",
   },
   {
     id: 5,
@@ -63,6 +67,7 @@ const projects = [
     gif: project5_animation,
     title: "Yearbook App",
     description: "Designed a simple yearbook app using android studio",
+    tools: "Kotlin | Android Studio",
   },
 ];
 

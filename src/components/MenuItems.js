@@ -18,6 +18,10 @@ const MenuItems = ({ menuItem }) => {
             <div className="project-caption">
               <h3>{item.title}</h3>
               <p>{item.description}</p>
+              <p>
+                <b>Tools used: </b>
+                <span class="tools-used">{item.tools}</span>
+              </p>
             </div>
           </div>
         );
