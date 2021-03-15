@@ -44,7 +44,11 @@ const projects = [
     title: "TicTacToe",
     description:
       "Developed an undefeatable tic-tac-toe bot using minmax algorithm",
+<<<<<<< HEAD
     tools: "Python | pyGame",
+=======
+    tools: "Python | RL | pyGame",
+>>>>>>> changes
   },
   {
     id: 4,
