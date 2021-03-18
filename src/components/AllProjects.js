@@ -8,6 +8,8 @@ import project4 from "../images/project4.webp";
 import project4_animation from "../images/project4_animation.gif";
 import project5 from "../images/project5.jpeg";
 import project5_animation from "../images/project5_animation.gif";
+import project6 from "../images/project6.png";
+import project6_animation from "../images/project6_animation.gif";
 
 const projects = [
   {
@@ -21,6 +23,18 @@ const projects = [
     description:
       "Designed a neural network that uses Long Short Term Memory model to predict the stock prices",
     tools: "Python | LSTM | Matplolib | TensorFlow",
+  },
+  {
+    id: 6,
+    category: "Neural Network",
+    link: "https://www.github.com/Sambhav101/digit-recognition-app",
+    icon: "View Source",
+    image: project6,
+    gif: project6_animation,
+    title: "Digit Recognition App",
+    description:
+      "Designed a webapp using flask and a trained deep CNN model to accurately identify digits",
+    tools: "Python| OpenCV| Tensorflow| JavaScript",
   },
   {
     id: 2,
