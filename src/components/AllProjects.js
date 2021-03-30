@@ -1,4 +1,4 @@
-import project1 from "../images/project1.jpg";
+import project1 from "../images/project1.jpeg";
 import project1_animation from "../images/project1_animation.webp";
 import project2 from "../images/project2.png";
 import project2_animation from "../images/project2_animation.gif";
@@ -29,11 +29,11 @@ const projects = [
   {
     id: 1,
     category: "Neural Network",
-    link: "https://www.github.com/Sambhav101/Stocks",
+    link: "https://www.github.com/Sambhav101/Stocks-Prediction-Using-LSTM",
     icon: "View Source",
     image: project1,
     gif: project1_animation,
-    title: "Stock Prediction AI",
+    title: "Stock Prediction Using LSTM",
     description:
       "Designed a neural network that uses Long Short Term Memory model to predict the stock prices",
     tools: "Python | LSTM | Matplolib | TensorFlow",
