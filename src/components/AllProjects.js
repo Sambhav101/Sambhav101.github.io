@@ -10,8 +10,22 @@ import project5 from "../images/project5.png";
 import project5_animation from "../images/project5_animation.gif";
 import project6 from "../images/project6.png";
 import project6_animation from "../images/project6_animation.gif";
+import project7 from "../images/project7.jpeg";
+import project7_animation from "../images/project7_animation.gif";
 
 const projects = [
+  {
+    id: 7,
+    category: "R",
+    link: "https://github.com/Sambhav101/Twitter-Sentiment-Analysis-in-R",
+    icon: "View Source",
+    image: project7,
+    gif: project7_animation,
+    title: "Twitter Sentiment Analysis in R",
+    description:
+      "a shiny web application that fetches tweet data and analyzes sentiment using lexicon approach",
+    tools: "R | ggplot | tidyr | shiny",
+  },
   {
     id: 1,
     category: "Neural Network",
