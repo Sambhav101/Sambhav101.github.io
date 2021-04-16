@@ -1,17 +1,17 @@
-import project1 from "../images/project1.jpeg";
+import project1 from "../images/project1.png";
 import project1_animation from "../images/project1_animation.webp";
 import project2 from "../images/project2.png";
 import project2_animation from "../images/project2_animation.gif";
 import project3 from "../images/project3.png";
 import project3_animation from "../images/project3_animation.gif";
-import project4 from "../images/project4.png";
-import project4_animation from "../images/project4_animation.gif";
 import project5 from "../images/project5.png";
 import project5_animation from "../images/project5_animation.gif";
 import project6 from "../images/project6.png";
 import project6_animation from "../images/project6_animation.gif";
-import project7 from "../images/project7.jpeg";
+import project7 from "../images/project7.png";
 import project7_animation from "../images/project7_animation.gif";
+import project8 from "../images/project8.png";
+import project8_animation from "../images/project8_animation.gif";
 
 const projects = [
   {
@@ -26,6 +26,19 @@ const projects = [
       "a shiny web application that fetches tweet data and analyzes sentiment using lexicon approach",
     tools: "R | ggplot | tidyr | shiny",
   },
+  {
+    id: 8,
+    category: "R",
+    link: "https://github.com/Sambhav101/Credit-Card-Fraud-Detection",
+    icon: "View Source",
+    image: project8,
+    gif: project8_animation,
+    title: "Credit Card Fraud Detection",
+    description:
+      "Analyzed different Classifier models to detect credit card fraud transactions.",
+    tools: "R | XGBoost | Random Forest",
+  },
+
   {
     id: 1,
     category: "Neural Network",
@@ -73,18 +86,6 @@ const projects = [
     description:
       "Developed an undefeatable tic-tac-toe bot using minmax algorithm",
     tools: "Python | RL | pyGame",
-  },
-  {
-    id: 4,
-    category: "React JS",
-    link: "https://www.github.com/Sambhav101/personal-portfolio-website",
-    icon: "View Source",
-    image: project4,
-    gif: project4_animation,
-    title: "React Portfolio Website",
-    description:
-      "A portfolio website featuring my projects and experience built using React",
-    tools: "React | CSS | Bootstrap",
   },
   {
     id: 5,
