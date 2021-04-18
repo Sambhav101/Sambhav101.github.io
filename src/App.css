@@ -383,7 +383,7 @@ colors: #00345d, #12293a */
   border-radius: 5px;
 }
 
-.image-data:hover .overlay {
+.project:hover .overlay {
   opacity: 1;
 }
 

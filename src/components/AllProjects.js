@@ -1,17 +1,17 @@
 import project1 from "../images/project1.png";
-import project1_animation from "../images/project1_animation.webp";
+import project1_animation from "../images/project1.png";
 import project2 from "../images/project2.png";
 import project2_animation from "../images/project2_animation.gif";
 import project3 from "../images/project3.png";
 import project3_animation from "../images/project3_animation.gif";
-import project5 from "../images/project5.png";
-import project5_animation from "../images/project5_animation.gif";
 import project6 from "../images/project6.png";
 import project6_animation from "../images/project6_animation.gif";
 import project7 from "../images/project7.png";
 import project7_animation from "../images/project7_animation.gif";
 import project8 from "../images/project8.png";
-import project8_animation from "../images/project8_animation.gif";
+import project8_animation from "../images/project8.png";
+import project9 from "../images/project9.jpeg";
+import project9_animation from "../images/project9.jpeg";
 
 const projects = [
   {
@@ -64,6 +64,18 @@ const projects = [
     tools: "Python| OpenCV| Tensorflow| JavaScript",
   },
   {
+    id: 9,
+    category: "R",
+    link: "https://github.com/Sambhav101/Iris-Flower-Classification",
+    icon: "View Source",
+    image: project9,
+    gif: project9_animation,
+    title: "Iris Flower Classification",
+    description:
+      "Analyzed the Iris flowers data, and built several classifiers to classify them into species ",
+    tools: "R| LDA | KNN | ggplot",
+  },
+  {
     id: 2,
     category: "Python",
     link: "https://www.github.com/Sambhav101/Minesweeper",
@@ -86,17 +98,6 @@ const projects = [
     description:
       "Developed an undefeatable tic-tac-toe bot using minmax algorithm",
     tools: "Python | RL | pyGame",
-  },
-  {
-    id: 5,
-    category: "Android",
-    link: "https://www.github.com/Sambhav101/YearbookProject",
-    icon: "View Source",
-    image: project5,
-    gif: project5_animation,
-    title: "Yearbook App",
-    description: "Designed a simple yearbook app using android studio",
-    tools: "Kotlin | Android Studio",
   },
 ];
 

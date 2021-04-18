@@ -99,8 +99,9 @@ const Header = () => {
             <p>Welcome to my portfolio</p>
             <p>
               I am software developer and machine learning enthusiast. I am a
-              Junior at St. Joseph's College doing double major in computer
-              science and mathematics. I love to code, travel and read books.
+              rising senior at St. Joseph's College doing double major in
+              computer science and mathematics. I love to code, travel and read
+              books.
             </p>
           </div>
         </div>
