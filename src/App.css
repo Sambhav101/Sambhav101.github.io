@@ -36,6 +36,7 @@ colors: #00345d, #12293a */
   z-index: -1;
 }
 
+
 /***************** Particles ################*/
 .header #tsparticles {
   position: fixed;
@@ -215,7 +216,7 @@ colors: #00345d, #12293a */
 
 /* ####################### Education #################### */
 
-.experience-page {
+.education-page {
   color: var(--primary-white);
   width: 100%;
   position: relative;
@@ -224,7 +225,7 @@ colors: #00345d, #12293a */
   z-index: 2;
 }
 
-#experience {
+#education {
   height: 10vh;
 }
 
@@ -267,13 +268,27 @@ colors: #00345d, #12293a */
   transform: scale(1.05);
 }
 
-.school-icon {
+/* .school-icon {
   align-self: stretch;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 20vmin;
   color: rgba(9, 9, 10, 0.89);
+} */
+
+.school-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.college-logo {
+  max-width: 20vmin;
+  max-height: 20vmin;
+  /* object-fit: cover; */
+  /* box-shadow: 0 10px 10px 0 rgba(3, 2, 2, 0.2), 0 6px 10px 0 rgba(2, 1, 1, 0.19); */
 }
 
 .school-description h3 {

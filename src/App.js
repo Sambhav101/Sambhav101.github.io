@@ -5,14 +5,14 @@ import Header from "./components/Header";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import BootstrapNavbar from "./components/BootstrapNavbar";
-import Experience from "./components/Experience";
+import Education from "./components/Education";
 
 function App() {
   return (
     <div class="main-page">
       <BootstrapNavbar />
       <Header />
-      <Experience />
+      <Education />
       <Projects />
       <Contact />
     </div>

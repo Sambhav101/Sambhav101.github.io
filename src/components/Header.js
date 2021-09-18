@@ -106,7 +106,7 @@ const Header = () => {
               reading research papers and pondering mysteries of the universe.
             </p>
             <span>
-              <a href="#experience">
+              <a href="#education">
                 <FaCaretDown color="#fff" />
               </a>
             </span>
