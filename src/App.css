@@ -27,7 +27,7 @@ colors: #00345d, #12293a */
 .main-page {
   /* Create the parallax scrolling effect */
   /* background-color: var(--header-background); */
-  background-image: url("/src/images/bg2.jpg");
+  background-image: url("/src/images/bg.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -460,6 +460,107 @@ colors: #00345d, #12293a */
   90% {
     -webkit-transform: rotate(2deg);
             transform: rotate(2deg);
+  }
+}
+
+
+/* ####################### Experience #################### */
+
+.experience-page {
+  color: var(--primary-white);
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 5vh;
+  z-index: 2;
+}
+
+#experience {
+  height: 10vh;
+}
+
+.experience-title h1 {
+  text-align: center;
+  font-size: 5vh;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: var(--title-color);
+}
+
+.experience-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.experience-data {
+  width: 60%;
+}
+
+.experience-svg {
+  width: 35%;
+}
+
+.work {
+  display: grid;
+  grid-template-columns: 1.5fr 4fr;
+  column-gap: 4vmin;
+  margin: 4vmin;
+  padding: 1.5vmin;
+  background: rgb(225, 225, 243);
+  color: black;
+  border: 1px solid rgb(35, 66, 206);
+  border-radius: 10px;
+  box-shadow: 0 10px 10px 0 rgba(3, 2, 2, 0.2), 0 6px 20px 0 rgba(2, 1, 1, 0.19);
+  transition: 0.2s;
+}
+
+.work:hover {
+  transform: scale(1.05);
+}
+
+.work-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.work-logo {
+  max-width: 20vmin;
+  max-height: 20vmin;
+  /* object-fit: cover; */
+  /* box-shadow: 0 10px 10px 0 rgba(3, 2, 2, 0.2), 0 6px 10px 0 rgba(2, 1, 1, 0.19); */
+}
+
+.work-description h3 {
+  font-size: 3.3vmin;
+  margin-bottom: 3vmin;
+}
+
+.work-info {
+  font-style: italic;
+  font-size: 2vmin;
+  line-height: 1vmin;
+}
+
+.work-description {
+  padding: 1.5vh 0vh;
+  font-size: 2vmin;
+}
+
+/* svg animation */
+
+
+#tie {
+  animation: tie 2s infinite ease-in-out;
+  transform-origin: 50% 62%;
+}
+@keyframes tie {
+  0%, 100% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: skew(-12deg) rotate(-6deg);
   }
 }
 
