@@ -98,10 +98,11 @@ const Header = () => {
           <div className="about-contents">
             <p>Welcome to my portfolio</p>
             <p>
-              I am software developer and machine learning enthusiast. I am a
-              rising senior at St. Joseph's College doing double major in
-              computer science and mathematics. I love to code, travel and read
-              books.
+              Hi, I am Sambhav, and I am Software/Data Engineering Intern at Tarifica. I am
+              senior at St. Joseph's College New York double majoring in
+              computer science and mathematics. I am also currently doing research in Quantum Computing.
+              I am a fan of creativity and admirer of technology . I love reading research papers and 
+              philosophical 
             </p>
           </div>
         </div>
