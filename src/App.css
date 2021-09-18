@@ -2,8 +2,11 @@
   --header-font: "Segoe UI";
   --primary-white: #ffffff;
   --primary-black: #000000;
-  --navbar-background: rgb(11, 8, 31);
-  --header-background: #1d2549;
+  /* --navbar-background: rgb(11, 8, 31); */
+  --navbar-background: hsl(253, 54%, 5%);
+
+  /* --header-background: #1d2549; */
+  --header-background: #0d0d0e;
   --education-background: #1b1b42;
   --project-background: #1f1e55;
   --contact-background: #17254e;
@@ -23,13 +26,14 @@ colors: #00345d, #12293a */
 
 .main-page {
   /* Create the parallax scrolling effect */
-  position: static;
-  background-color: var(--header-background);
+  /* background-color: var(--header-background); */
+  background-image: url("/src/images/bg2.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
+  z-index: -1;
 }
 
 /***************** Particles ################*/
@@ -214,9 +218,10 @@ colors: #00345d, #12293a */
 .experience-page {
   color: var(--primary-white);
   width: 100%;
-  position: static;
+  position: relative;
   overflow: hidden;
   padding-bottom: 5vh;
+  z-index: 2;
 }
 
 #experience {
@@ -448,6 +453,8 @@ colors: #00345d, #12293a */
 .projects {
   color: white;
   width: 100%;
+  position: relative;
+  z-index: 1;
 }
 
 #project {
@@ -588,6 +595,8 @@ colors: #00345d, #12293a */
 .contact-page {
   color: var(--primary-white);
   padding-top: 10vh;
+  position: relative;
+  z-index: 1;
 }
 
 .contact-title {
