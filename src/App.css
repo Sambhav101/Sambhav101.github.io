@@ -21,9 +21,20 @@ colors: #00345d, #12293a */
   scroll-behavior: smooth;
 }
 
+.main-page {
+  /* Create the parallax scrolling effect */
+  position: static;
+  background-color: var(--header-background);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
 /***************** Particles ################*/
 .header #tsparticles {
-  position: absolute;
+  position: fixed;
   height: 90vh;
   width: 100%;
   z-index: 0;
@@ -97,10 +108,8 @@ colors: #00345d, #12293a */
 /*###################   Header ####################*/
 
 .header {
-  background: inherit;
   /* background-image: url("images/bg.jpeg");
   background-size: cover; */
-  background-attachment: fixed;
   color: white;
   width: 100%;
   height: 90vh;
@@ -203,7 +212,6 @@ colors: #00345d, #12293a */
 /* ####################### Education #################### */
 
 .experience-page {
-  background: var(--header-background);
   color: var(--primary-white);
   width: 100%;
   position: static;
@@ -438,7 +446,6 @@ colors: #00345d, #12293a */
 /* ##################### Projects ######################## */
 
 .projects {
-  background: var(--project-background);
   color: white;
   width: 100%;
 }
@@ -579,7 +586,6 @@ colors: #00345d, #12293a */
 /* ######################### Contact ####################### */
 
 .contact-page {
-  background: var(--contact-background);
   color: var(--primary-white);
   padding-top: 10vh;
 }
