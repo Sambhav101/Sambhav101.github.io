@@ -6,6 +6,8 @@ import {
   FaFacebook,
   FaTwitter,
   FaInstagram,
+  FaCaretDown,
+  FaCar,
 } from "react-icons/fa";
 import Particles from "react-particles-js";
 
@@ -56,7 +58,7 @@ const Header = () => {
       <div className="header-container">
         <div className="header-top">
           <h1>Sambhav Shrestha</h1>
-          <p>Life is a learning process</p>
+          <p>I think; therefore I am</p>
         </div>
         <div className="display-profile">
           <img src={dp} alt="profile pic" />
@@ -96,17 +98,22 @@ const Header = () => {
         </div>
         <div className="about_me_container">
           <div className="about-contents">
-            <p>Welcome to my portfolio</p>
+            <p>Welcome to my Portfolio</p>
             <p>
-              Hi, I am Sambhav, and I am Software/Data Engineering Intern at Tarifica. I am
-              senior at St. Joseph's College New York double majoring in
-              computer science and mathematics. I am also currently doing research in Quantum Computing.
-              I am a fan of creativity and admirer of technology . I love reading research papers and 
-              philosophical 
+              Hi, I am Sambhav, and I am Software/Data Engineering Intern at
+              Tarifica. I am also currently doing research in Quantum Computing.
+              I am a fan of creativity and admirer of technology . I love
+              reading research papers and pondering mysteries of the universe.
             </p>
+            <span>
+              <a href="#experience">
+                <FaCaretDown color="#fff" />
+              </a>
+            </span>
           </div>
         </div>
       </div>
+      <hr></hr>
     </div>
   );
 };
