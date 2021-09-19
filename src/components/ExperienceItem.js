@@ -11,12 +11,15 @@ const ExperienceItem = ({ work }) => {
             </div>
             <div className="work-description">
               <h3>{item.title}</h3>
-              <div className="work-info">
-                <p>{item.company}</p>
-                <p>{item.duration}</p>
-              </div>
+              <p>
+                <strong>{item.duration}</strong>
+              </p>
               <div className="work-description">
-                <p>Relevant courses: {item.description}</p>
+                <ul>
+                  <li>{item.desc1}</li>
+                  <li>{item.desc2}</li>
+                  <li>{item.desc3}</li>
+                </ul>
               </div>
             </div>
           </div>

@@ -3,7 +3,7 @@
   --primary-white: #ffffff;
   --primary-black: #000000;
   /* --navbar-background: rgb(11, 8, 31); */
-  --navbar-background: hsl(253, 54%, 5%);
+  --navbar-background: rgb(19, 17, 26);
 
   /* --header-background: #1d2549; */
   --header-background: #0d0d0e;
@@ -26,8 +26,8 @@ colors: #00345d, #12293a */
 
 .main-page {
   /* Create the parallax scrolling effect */
-  /* background-color: var(--header-background); */
-  background-image: url("/src/images/bg.jpg");
+  background-color: var(--header-background);
+  /* background-image: url("/src/images/bg.jpg"); */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -38,7 +38,7 @@ colors: #00345d, #12293a */
 
 
 /***************** Particles ################*/
-.header #tsparticles {
+.main-page #tsparticles {
   position: fixed;
   height: 90vh;
   width: 100%;
@@ -64,7 +64,7 @@ colors: #00345d, #12293a */
 }
 
 #responsive-navbar-nav a {
-  font-size: 1.1vw;
+  font-size: 1.1vmax;
   margin: 0.5rem 1rem;
   transition: 0.2s;
   padding: 1rem;
@@ -234,6 +234,9 @@ colors: #00345d, #12293a */
   font-size: 5vh;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: var(--title-color);
+  margin: 5vh 2vw;
+  padding-bottom: 2vh;
+  border-bottom: 2px solid rgb(145, 149, 151);
 }
 
 .education-content {
@@ -243,11 +246,11 @@ colors: #00345d, #12293a */
 }
 
 .education_svg {
-  width: 35%;
+  width: 30%;
 }
 
 .education-data {
-  width: 60%;
+  width: 70%;
 }
 
 .school {
@@ -293,18 +296,17 @@ colors: #00345d, #12293a */
 
 .school-description h3 {
   font-size: 3.3vmin;
-  margin-bottom: 3vmin;
 }
 
-.school-info {
+.school-info p {
   font-style: italic;
-  font-size: 2vmin;
-  line-height: 1vmin;
+  font-size: 1.8vmin;
+  margin: 0;
+
 }
 
-.courses {
-  padding: 1.5vh 0vh;
-  font-size: 2vmin;
+.courses p{
+  font-size: 1.8vmin;
 }
 
 .school-description h3,
@@ -484,20 +486,22 @@ colors: #00345d, #12293a */
   font-size: 5vh;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: var(--title-color);
+  margin: 5vh 2vw;
+  padding-bottom: 2vh;
+  border-bottom: 2px solid rgb(173, 171, 171);
 }
 
 .experience-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .experience-data {
-  width: 60%;
+  width: 80%;
+  margin: auto;
 }
 
 .experience-svg {
-  width: 35%;
+  width: 40%;
+  display: none;
 }
 
 .work {
@@ -534,23 +538,18 @@ colors: #00345d, #12293a */
 
 .work-description h3 {
   font-size: 3.3vmin;
-  margin-bottom: 3vmin;
-}
-
-.work-info {
-  font-style: italic;
-  font-size: 2vmin;
-  line-height: 1vmin;
 }
 
 .work-description {
-  padding: 1.5vh 0vh;
+  padding: 1vh 0vh;
   font-size: 2vmin;
 }
 
+.work-description ul li {
+  margin-bottom: 1vh;
+}
+
 /* svg animation */
-
-
 #tie {
   animation: tie 2s infinite ease-in-out;
   transform-origin: 50% 62%;
@@ -584,6 +583,9 @@ colors: #00345d, #12293a */
   margin-bottom: 4vh;
   color: var(--title-color);
   font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 5vh 2vw;
+  padding-bottom: 2vh;
+  border-bottom: 2px solid rgb(173, 171, 171);
 }
 
 .projects-data {
@@ -722,6 +724,9 @@ colors: #00345d, #12293a */
   padding: 3vh;
   color: var(--title-color);
   font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 5vh 2vw;
+  padding-bottom: 2vh;
+  border-bottom: 2px solid rgb(173, 171, 171);
 }
 
 .contact-body {
@@ -785,6 +790,18 @@ colors: #00345d, #12293a */
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .education_svg {
+    display: none;
+  }
+
+  .education-data {
+    width: 80%;
+    margin: auto;
+  }
+
+}
+
 @media screen and (max-width: 850px) {
   .header-top h1 {
     font-size: 9vmin;
@@ -815,10 +832,21 @@ colors: #00345d, #12293a */
     align-self: center;
     margin-bottom: 30px;
     margin-right: 0px;
+
   }
+
+  .education_svg {
+    display: none;
+  }
+
+  .education-data {
+    width: 80%;
+    margin: auto;
+  } 
+
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .projects-list {
     display: grid;
     grid-template-columns: 1fr;
@@ -835,7 +863,7 @@ colors: #00345d, #12293a */
 
 @media screen and (max-width: 450px) {
   .education-data {
-    width: 100%;
+    width: 90%;
   }
 
   .contact-body {
@@ -860,11 +888,24 @@ colors: #00345d, #12293a */
     font-size: 1.6vmin;
   }
 
+  #education {
+    height: 12vh;
+  }
+
   #experience {
     height: 12vh;
   }
 
   #project {
     height: 12vh;
+  }
+
+  .education_svg {
+    display: none;
+  }
+
+  .education-data {
+    width: 90%;
+    margin: auto;
   }
 }

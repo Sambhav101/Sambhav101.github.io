@@ -10,51 +10,11 @@ import {
   FaCar,
 } from "react-icons/fa";
 import Particles from "react-particles-js";
+import Fade from "react-reveal";
 
 const Header = () => {
   return (
     <div className="header">
-      <Particles
-        params={{
-          particles: {
-            number: {
-              value: 80,
-              density: {
-                enable: true,
-                value_area: 900,
-              },
-            },
-            color: {
-              value: "#ffe123",
-            },
-            shape: {
-              type: "circle",
-              stroke: {
-                width: 4,
-                color: "#f3a5bc",
-              },
-            },
-            opacity: {
-              value: 0.5,
-            },
-            line_linked: {
-              distance: 160,
-              opacity: 0.2,
-            },
-            interactivity: {
-              onhover: {
-                enable: true,
-                mode: "repulse",
-              },
-              onclick: {
-                enable: true,
-                mode: "push",
-              },
-              detect_on: "window",
-            },
-          },
-        }}
-      />
       <div className="header-container">
         <div className="header-top">
           <h1>Sambhav Shrestha</h1>
@@ -113,7 +73,6 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <hr></hr>
     </div>
   );
 };

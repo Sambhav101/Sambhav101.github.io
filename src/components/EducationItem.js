@@ -15,7 +15,9 @@ const EducationItem = ({ school }) => {
               <div className="school-info">
                 <p>{item.major}</p>
                 <p>{item.grad}</p>
-                <p>GPA {item.gpa}</p>
+                <p>
+                  <strong>GPA {item.gpa}</strong>
+                </p>
               </div>
               <div className="courses">
                 <p>Relevant courses: {item.courses}</p>

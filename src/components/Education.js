@@ -10,7 +10,7 @@ const Education = () => {
     <div className="education-page">
       <div id="education"></div>
       <div className="education-title">
-        <h1>My Alma Mater</h1>
+        <h1>Education</h1>
       </div>
       <div class="education-content">
         <div class="education_svg">
@@ -345,9 +345,6 @@ const Education = () => {
                 ></path>
               </g>
             </svg>
-          </div>
-          <div>
-            <p>Education is the root of Success</p>
           </div>
         </div>
         <div className="education-data">

@@ -28,7 +28,7 @@ const Projects = () => {
     <div className="projects">
       <div id="project"></div>
       <div className="project-title">
-        <h1>My Projects</h1>
+        <h1>Research and Projects</h1>
       </div>
       <div className="projects-data">
         <Categories filter={filter} categories={categories} />

@@ -10,12 +10,9 @@ const Experience = () => {
     <div className="experience-page">
       <div id="experience"></div>
       <div className="experience-title">
-        <h1>Professional Experience</h1>
+        <h1>Professional Experiences</h1>
       </div>
       <div className="experience-content">
-        <div className="experience-data">
-          <ExperienceItem work={work} />
-        </div>
         <div className="experience-svg">
           <svg
             viewBox="0 0 320 266"
@@ -427,6 +424,9 @@ const Experience = () => {
               ></path>
             </g>
           </svg>
+        </div>
+        <div className="experience-data">
+          <ExperienceItem work={work} />
         </div>
       </div>
     </div>
