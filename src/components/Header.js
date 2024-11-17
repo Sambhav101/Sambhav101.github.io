@@ -6,57 +6,19 @@ import {
   FaFacebook,
   FaTwitter,
   FaInstagram,
+  FaCaretDown,
+  FaCar,
 } from "react-icons/fa";
 import Particles from "react-particles-js";
+import Fade from "react-reveal";
 
 const Header = () => {
   return (
     <div className="header">
-      <Particles
-        params={{
-          particles: {
-            number: {
-              value: 80,
-              density: {
-                enable: true,
-                value_area: 900,
-              },
-            },
-            color: {
-              value: "#ffe123",
-            },
-            shape: {
-              type: "circle",
-              stroke: {
-                width: 4,
-                color: "#f3a5bc",
-              },
-            },
-            opacity: {
-              value: 0.5,
-            },
-            line_linked: {
-              distance: 160,
-              opacity: 0.2,
-            },
-            interactivity: {
-              onhover: {
-                enable: true,
-                mode: "repulse",
-              },
-              onclick: {
-                enable: true,
-                mode: "push",
-              },
-              detect_on: "window",
-            },
-          },
-        }}
-      />
       <div className="header-container">
         <div className="header-top">
           <h1>Sambhav Shrestha</h1>
-          <p>Life is a learning process</p>
+          <p>I think; therefore I am</p>
         </div>
         <div className="display-profile">
           <img src={dp} alt="profile pic" />
@@ -96,13 +58,18 @@ const Header = () => {
         </div>
         <div className="about_me_container">
           <div className="about-contents">
-            <p>Welcome to my portfolio</p>
+            <p>Welcome to my Portfolio</p>
             <p>
-              I am software developer and machine learning enthusiast. I am a
-              rising senior at St. Joseph's College doing double major in
-              computer science and mathematics. I love to code, travel and read
-              books.
+              Hi, I am Sambhav, and I am Software/Data Engineering Intern at
+              Tarifica. I am also currently doing research in Quantum Computing.
+              I am a fan of creativity and admirer of technology . I love
+              reading research papers and pondering mysteries of the universe.
             </p>
+            <span>
+              <a href="#education">
+                <FaCaretDown color="#fff" />
+              </a>
+            </span>
           </div>
         </div>
       </div>

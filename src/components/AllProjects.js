@@ -12,8 +12,21 @@ import project8 from "../images/project8.png";
 import project8_animation from "../images/project8.png";
 import project9 from "../images/project9.jpeg";
 import project9_animation from "../images/project9.jpeg";
+import project10 from "../images/project10.png";
 
 const projects = [
+  {
+    id: 10,
+    category: "R",
+    link: "https://github.com/msr-ds3/officer-complaints-2021-group-6",
+    icon: "View Source",
+    image: project10,
+    gif: project10,
+    title: "Police Complaints Data Analysis",
+    description:
+      "Replication, Extension and Analysis of police complaints data from 3 cities",
+    tools: "Bash | R | ggplot | tidyverse",
+  },
   {
     id: 7,
     category: "R",
@@ -25,18 +38,6 @@ const projects = [
     description:
       "a shiny web application that fetches tweet data and analyzes sentiment using lexicon approach",
     tools: "R | ggplot | tidyr | shiny",
-  },
-  {
-    id: 8,
-    category: "R",
-    link: "https://github.com/Sambhav101/Credit-Card-Fraud-Detection",
-    icon: "View Source",
-    image: project8,
-    gif: project8_animation,
-    title: "Credit Card Fraud Detection",
-    description:
-      "Analyzed different Classifier models to detect credit card fraud transactions.",
-    tools: "R | XGBoost | Random Forest",
   },
 
   {
@@ -62,6 +63,18 @@ const projects = [
     description:
       "Designed a webapp using flask and a trained deep CNN model to accurately identify digits",
     tools: "Python| OpenCV| Tensorflow| JavaScript",
+  },
+  {
+    id: 8,
+    category: "R",
+    link: "https://github.com/Sambhav101/Credit-Card-Fraud-Detection",
+    icon: "View Source",
+    image: project8,
+    gif: project8_animation,
+    title: "Credit Card Fraud Detection",
+    description:
+      "Analyzed different Classifier models to detect credit card fraud transactions.",
+    tools: "R | XGBoost | Random Forest",
   },
   {
     id: 9,
