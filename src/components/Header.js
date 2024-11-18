@@ -3,14 +3,13 @@ import dp from "../images/dp.png";
 import {
   FaGithub,
   FaLinkedin,
-  FaFacebook,
-  FaTwitter,
+  FaRProject,
   FaInstagram,
   FaCaretDown,
   FaCar,
 } from "react-icons/fa";
-import Particles from "react-particles-js";
-import Fade from "react-reveal";
+// import Particles from "react-particles-js";
+// import Fade from "react-reveal";
 
 const Header = () => {
   return (
@@ -35,11 +34,6 @@ const Header = () => {
             </a>
           </div>
           <div className="icon">
-            <a href="https://twitter.com/i_m_sambhav" target="_blank">
-              <FaTwitter color="fff" />
-            </a>
-          </div>
-          <div className="icon">
             <a
               href="https://www.instagram.com/sambhav_shrestha1/"
               target="_blank"
@@ -49,10 +43,10 @@ const Header = () => {
           </div>
           <div className="icon">
             <a
-              href="https://www.facebook.com/sambhav.shrestha.101"
+              href="https://rpubs.com/Sambhav101"
               target="_blank"
             >
-              <FaFacebook color="#fff" />
+              <FaRProject color="#fff" />
             </a>
           </div>
         </div>
@@ -60,10 +54,10 @@ const Header = () => {
           <div className="about-contents">
             <p>Welcome to my Portfolio</p>
             <p>
-              Hi, I am Sambhav, and I am Software/Data Engineering Intern at
-              Tarifica. I am also currently doing research in Quantum Computing.
-              I am a fan of creativity and admirer of technology . I love
-              reading research papers and pondering mysteries of the universe.
+            I am an ML Infra Support Engineer at Meta with past 2 years experience as a 
+            Software Development Engineer at Amazon and Tarifica. With a deep passion for AI, problem-solving, 
+            and coding, I specialize in cloud computing & devops, AI model deployment, and distributed systems.
+            Furthermore, I enjoy hiking, snowboarding, and pondering questions of the universe.
             </p>
             <span>
               <a href="#education">

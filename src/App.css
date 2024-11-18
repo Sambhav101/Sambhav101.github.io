@@ -816,6 +816,11 @@ colors: #00345d, #12293a */
     width: 90%;
   }
 
+  .work {
+    grid-template-columns: 1fr;
+    width: 90%;
+  }
+
   .about-contents p {
     font-size: 1.8vmax;
   }
@@ -905,6 +910,11 @@ colors: #00345d, #12293a */
   }
 
   .education-data {
+    width: 90%;
+    margin: auto;
+  }
+
+  .experience-content {
     width: 90%;
     margin: auto;
   }

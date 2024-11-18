@@ -13,10 +13,11 @@ import project8_animation from "../images/project8.png";
 import project9 from "../images/project9.jpeg";
 import project9_animation from "../images/project9.jpeg";
 import project10 from "../images/project10.png";
+import logo_google from "../images/logo_google.png";
 
 const projects = [
   {
-    id: 10,
+    id: 1,
     category: "R",
     link: "https://github.com/msr-ds3/officer-complaints-2021-group-6",
     icon: "View Source",
@@ -28,7 +29,7 @@ const projects = [
     tools: "Bash | R | ggplot | tidyverse",
   },
   {
-    id: 7,
+    id: 2,
     category: "R",
     link: "https://github.com/Sambhav101/Twitter-Sentiment-Analysis-in-R",
     icon: "View Source",
@@ -41,7 +42,7 @@ const projects = [
   },
 
   {
-    id: 1,
+    id: 3,
     category: "Neural Network",
     link: "https://www.github.com/Sambhav101/Stocks-Prediction-Using-LSTM",
     icon: "View Source",
@@ -53,7 +54,7 @@ const projects = [
     tools: "Python | LSTM | Matplolib | TensorFlow",
   },
   {
-    id: 6,
+    id: 4,
     category: "Neural Network",
     link: "https://www.github.com/Sambhav101/digit-recognition-app",
     icon: "View Source",
@@ -65,7 +66,7 @@ const projects = [
     tools: "Python| OpenCV| Tensorflow| JavaScript",
   },
   {
-    id: 8,
+    id: 5,
     category: "R",
     link: "https://github.com/Sambhav101/Credit-Card-Fraud-Detection",
     icon: "View Source",
@@ -77,7 +78,7 @@ const projects = [
     tools: "R | XGBoost | Random Forest",
   },
   {
-    id: 9,
+    id: 6,
     category: "R",
     link: "https://github.com/Sambhav101/Iris-Flower-Classification",
     icon: "View Source",
@@ -89,7 +90,7 @@ const projects = [
     tools: "R| LDA | KNN | ggplot",
   },
   {
-    id: 2,
+    id: 7,
     category: "Python",
     link: "https://www.github.com/Sambhav101/Minesweeper",
     icon: "View Source",
@@ -101,7 +102,7 @@ const projects = [
     tools: "Python | pyGame",
   },
   {
-    id: 3,
+    id: 8,
     category: "Python",
     link: "https://www.github.com/Sambhav101/TicTacToe",
     icon: "View Source",
@@ -111,6 +112,18 @@ const projects = [
     description:
       "Developed an undefeatable tic-tac-toe bot using minmax algorithm",
     tools: "Python | RL | pyGame",
+  },
+  {
+    id: 9,
+    category: "Python",
+    link: "https://www.coursera.org/account/accomplishments/specialization/certificate/EHK3VR77NU24",
+    icon: "View Certificate",
+    image: logo_google,
+    gif: logo_google,
+    title: "GCP Specialiazation Certificate",
+    description:
+      "Completed a 5-course Coursera specialization on GCP Compute, Kubernetes, and App Engine",
+    tools: "Python | Google Cloud Platform",
   },
 ];
 

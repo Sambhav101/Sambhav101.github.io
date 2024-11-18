@@ -1,62 +1,61 @@
+import logo_meta from "../images/logo_meta.png"
 import logo_tarifica from "../images/logo_tarifica.png";
-import logo_google from "../images/logo_google.png";
+import logo_amazon from "../images/logo_amazon.png"
 import logo_microsoft from "../images/logo_microsoft.png";
 import logo_college from "../images/logo1.png";
-import logo_chase from "../images/logo_chase.png";
-import { FaBorderNone } from "react-icons/fa";
 
 const experiences = [
   {
     id: 1,
-    title: "Software/Data Engineer Intern",
-    company: "Tarifica",
-    duration: "July 2021 - Present",
+    title: "ML Infra Support Engineer",
+    company: "Meta / HCL Technologies",
+    duration: "March 2024 - Present",
     desc1:
-      "Building and maintaining web-scrapers using Selenium and BeautifulSoup packages; creating new Django Models, APIs, and reporting tools to optimize server performance. ",
+      "Implemented monitoring systems and doctor tool to track model performance in production and set up alerting mechanisms for any model processing related errors like entropy explosions or deviations",
     desc2:
-      "Using PostgreSQL and pgAdmin to manage and report data into the dashboards, building ETL pipelines to clean and wrangle data for analytics",
+      "Worked closely with Research Scientists and ML engineers to understand model requirements and provided infrastructure support for experimentation and testing.",
     desc3:
-      "Working on regression models and sentimental analysis using NLP to analyze value and forecast growth of products",
-    logo: logo_tarifica,
+      "Implemented Gen AI tool to assist research scientists with locating and debugging errors during model packing, splitting, lowering, and transformation",
+    logo: logo_meta,
   },
   {
     id: 2,
-    title: "Summer Challenge Student",
-    company: "Google Cloud",
-    duration: "July 2021 - Sep 2021",
+    title: "Software/Data Engineer",
+    company: "Tarifica",
+    duration: "June 2023 - Feb 2024",
     desc1:
-      "Completed a 5-course Coursera specialization focused on GCP Compute, Kubernetes, and App engine; deployed and managed VMs in the cloud, set up virtual private networks and load balancers, and created database in Cloud storage like Cloud SQL and BigQuery.",
+      "Built and maintained over 300 web scrapers using Python and BeautifulSoup to capture raw data from various sources, transforming it into structured data stored in PostgreSQL databases for further analysis. ",
     desc2:
-      "Involved in hands-on labs and projects to design and build a simple system from scratch, automated deployment in the cloud using CI/CD pipelines, and created uptime checks and alerts for monitoring and logging.",
+      "Designed and implemented ETL pipelines using the Flask framework to filter, process, and transmit high-quality data to downstream systems for analysis and visualization, ensuring accuracy and efficiency.",
     desc3:
-      "Completed google quests to earn skill badges each focusing in different aspects of software development.",
-    logo: logo_google,
+      "Refactored and optimized legacy code to enhance its performance, readability, and output accuracy, added new features, logging, monitoring and testing to ensure reliability",
+    logo: logo_tarifica,
   },
   {
     id: 3,
+    title: "Software Development Engineer",
+    company: "Amazon",
+    duration: "July 2022 - March 2023",
+    desc1:
+      "Designed, developed, and monitored live microservices using AWS technologies such as EC2, Lambda, and CloudWatch, enabling seamless operation of Amazon Go and Just Walk Out stores. ",
+    desc2:
+      "Led the migration and upgrade of a critical service to AWS, significantly reducing operational costs, latency, and support tickets, while enhancing service reliability through improved metrics, alarms, and automated deployment pipelines.",
+    desc3:
+      "Delivered high-quality, timely solutions across multiple languages, including Java, Kotlin, Python, TypeScript, and Ruby, in a Linux-based environment, ensuring efficient sprint task completion and superior system performance.",
+    logo: logo_amazon,
+  },
+  {
+    id: 4,
     title: "Data Science Research Fellow",
     company: "Microsoft",
     duration: "June 2021 - July 2021",
     desc1:
-      'Published the replication and extension of the article "Police Complaints" into Github, analyzing the distributions of police officers` and victims` race and gender with the proportion of complaints from 3 cities: NYC, Chicago, and Philadelphia.',
+      "Conducted an in-depth analysis and extended the study 'Police Complaints' published on the Financial Times article. Investigated the relationships between police officers’ and victims' race and gender, analyzing complaint distributions across three major cities: NYC, Chicago, and Philadelphia",
     desc2:
-      "Researched different papers and publications and performed replication, analysis as well as an extension, and studied the statistical significance of results.",
+      "Conducted comprehensive research on statistical data analysis techniques, replicating and extending existing studies using R, and generated new findings by exploring corelations and patterns",
     desc3:
-      "Used R to read and clean the data files, used different data manipulation techniques to build linear models, and played with data visualizations.",
+      "Developed advanced regression and machine learning models in R to derive meaningful insights, and presented the findings through visually compelling and informative visualizations that communicated complex data-driven results to data scientists and Engineers",
     logo: logo_microsoft,
-  },
-  {
-    id: 4,
-    title: "Software Engineering Virtual Experience",
-    company: "JP Morgan Chase/Forage",
-    duration: "Jun 2020 - July 2020",
-    desc1:
-      "Played around with different methods of data visualization to observe the ratio of two stocks and trigger alerts when needed.",
-    desc2:
-      "Used React and node.js to render the various components of user interface in the web application",
-    desc3:
-      "Used Perspective, a open source tool to stream analytics and data via WebAssembly",
-    logo: logo_chase,
   },
   {
     id: 5,

@@ -16,7 +16,7 @@ const schools = [
   {
     id: 2,
     title: "St. Xavier's College Maitighar, Kathmandu",
-    major: "+2 in General Science and Mathematics",
+    major: "Diploma in General Science and Mathematics",
     grad: "2015 - 2017",
     gpa: 4.0,
     courses: "Physics, Chemistry, Biology, Mathematics, English",

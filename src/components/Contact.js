@@ -1,5 +1,5 @@
 import React from "react";
-import { FaEnvelope, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
+import { FaEnvelope} from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -8,14 +8,12 @@ const Contact = () => {
       <div className="contact-body">
         <div className="contact-text">
           <p>
-            I find the field of artificial intelligence extremely fascinating.
-            Furthermore, I am constantly enriching myself with new skills and
-            challenging myself to limits. Currently, I am seeeking an internship
-            or part-time job in the same field.
+            I am always seeking for new challenges and opportunities. 
+            I hope you enjoyed exploring my work and got a glimpse into my passion for software engineering.
           </p>
           <p>
             If you liked what you saw and would like to reach out to me, please
-            feel free to shoot me a message. I will try getting back to you as
+            feel free to shoot me a message at my email. I will try getting back to you as
             soon as possible.
           </p>
         </div>
@@ -23,18 +21,10 @@ const Contact = () => {
           <div className="contact-info">
             <FaEnvelope />
             <span>
-              <a href="mailto: sambhavshrestha1@gmail.com">
-                sambhavshrestha1@gmail.com
+              <a href="mailto: sambhavshrestha111@gmail.com">
+                sambhavshrestha111@gmail.com
               </a>
             </span>
-          </div>
-          <div className="contact-info">
-            <FaPhoneAlt />
-            <span>+1(929)3196443</span>
-          </div>
-          <div className="contact-info">
-            <FaMapMarkerAlt />
-            <span>Jackson Heights, NY, 11372</span>
           </div>
         </div>
       </div>
