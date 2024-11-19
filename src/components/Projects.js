@@ -14,7 +14,7 @@ const Projects = () => {
   const [menuItems, setMenuItems] = useState(projects);
 
   const filter = (category) => {
-    if (category == "ALL") {
+    if (category === "ALL") {
       setMenuItems(projects);
       return;
     }

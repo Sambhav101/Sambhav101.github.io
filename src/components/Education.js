@@ -1,7 +1,6 @@
 import React from "react";
 import schools from "../components/Schools.js";
 import EducationItem from "./EducationItem.js";
-import Fade from "react-reveal/Fade";
 import { useState } from "react";
 
 const Education = () => {

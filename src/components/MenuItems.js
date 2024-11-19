@@ -10,7 +10,7 @@ const MenuItems = ({ menuItem }) => {
               <img class="static" src={item.image} alt="" />
               <img class="active" src={item.gif} alt="" />
               <div className="overlay">
-                <a href={item.link} target="_blank">
+                <a href={item.link} target="_blank" rel="noreferrer">
                   {item.icon}
                 </a>
               </div>

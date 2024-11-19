@@ -2,7 +2,6 @@ import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import { FaHome } from "react-icons/fa";
 import PDF from "../documents/resume.pdf";
-import { Link } from "react-router-dom";
 
 const BootstrapNavbar = () => {
   return (

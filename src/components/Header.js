@@ -5,11 +5,8 @@ import {
   FaLinkedin,
   FaRProject,
   FaInstagram,
-  FaCaretDown,
-  FaCar,
+  FaCaretDown
 } from "react-icons/fa";
-// import Particles from "react-particles-js";
-// import Fade from "react-reveal";
 
 const Header = () => {
   return (
@@ -24,28 +21,24 @@ const Header = () => {
         </div>
         <div className="link-containers">
           <div className="icon">
-            <a href="https://www.github.com/Sambhav101" target="_blank">
+            <a href="https://www.github.com/Sambhav101" target="_blank" rel="noreferrer">
               <FaGithub color="#fff" />
             </a>
           </div>
           <div className="icon">
-            <a href="https://www.linkedin.com/in/Sambhav101" target="_blank">
+            <a href="https://www.linkedin.com/in/Sambhav101" target="_blank" rel="noreferrer">
               <FaLinkedin color="#fff" />
             </a>
           </div>
           <div className="icon">
             <a
-              href="https://www.instagram.com/sambhav_shrestha1/"
-              target="_blank"
-            >
+              href="https://www.instagram.com/sambhav_shrestha1/" target="_blank" rel="noreferrer">
               <FaInstagram color="#fff" />
             </a>
           </div>
           <div className="icon">
             <a
-              href="https://rpubs.com/Sambhav101"
-              target="_blank"
-            >
+              href="https://rpubs.com/Sambhav101" target="_blank" rel="noreferrer">
               <FaRProject color="#fff" />
             </a>
           </div>

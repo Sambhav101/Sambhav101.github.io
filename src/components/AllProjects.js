@@ -40,7 +40,6 @@ const projects = [
       "a shiny web application that fetches tweet data and analyzes sentiment using lexicon approach",
     tools: "R | ggplot | tidyr | shiny",
   },
-
   {
     id: 3,
     category: "Neural Network",

@@ -38,12 +38,12 @@ colors: #00345d, #12293a */
 
 
 /***************** Particles ################*/
-.main-page #tsparticles {
+/* #tsparticles {
   position: fixed;
   height: 90vh;
   width: 100%;
   z-index: 0;
-}
+} */
 
 /* ################ Bootstrap Navbar */
 .Bootstrap-Navbar {
@@ -489,9 +489,6 @@ colors: #00345d, #12293a */
   margin: 5vh 2vw;
   padding-bottom: 2vh;
   border-bottom: 2px solid rgb(173, 171, 171);
-}
-
-.experience-content {
 }
 
 .experience-data {
