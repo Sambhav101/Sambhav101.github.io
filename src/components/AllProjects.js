@@ -25,9 +25,9 @@ const projects = [
     icon: "View Source",
     image: project_freq,
     gif: project_freq,
-    title: "Frequency Prior for Image Generation",
+    title: "Autoregressive Image Generation",
     description:
-      "Autoregressive image generation using Fourier frequency priors over attention-based transformers",
+      "Fourier frequency priors for image generation to replace attention-based transformers",
     tools: "PyTorch | CUDA | wandb",
   },
   {
