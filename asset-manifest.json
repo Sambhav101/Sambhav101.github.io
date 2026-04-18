@@ -1,32 +1,33 @@
 {
   "files": {
     "main.css": "/static/css/main.bfd48c89.css",
-    "main.js": "/static/js/main.0630250d.js",
+    "main.js": "/static/js/main.85b87058.js",
     "static/media/project3_animation.gif": "/static/media/project3_animation.14364ec637897f4f5ed5.gif",
     "static/media/project2_animation.gif": "/static/media/project2_animation.843bff3503e3b0ca5f71.gif",
     "static/media/project10.png": "/static/media/project10.12a70ce8c159d0c414fb.png",
     "static/media/project7_animation.gif": "/static/media/project7_animation.477c5b31303491252440.gif",
-    "static/media/project4.png": "/static/media/project4.191f5222812c1110e347.png",
     "static/media/logo1.png": "/static/media/logo1.db4d2c49a4c5d4e92803.png",
     "static/media/dp.png": "/static/media/dp.fb6dc61e4734f776df67.png",
     "static/media/project1.png": "/static/media/project1.09e509f3e8d48134cca4.png",
     "static/media/project6.png": "/static/media/project6.b5887cee2dc1a00c3ba2.png",
+    "static/media/resume.pdf": "/static/media/resume.11af1b9b80a528483cf9.pdf",
     "static/media/logo_meta.png": "/static/media/logo_meta.4e3f9ddda22258f3c416.png",
-    "static/media/resume.pdf": "/static/media/resume.4e3e864c372ce3df6fc3.pdf",
+    "static/media/project_freq.png": "/static/media/project_freq.55d7cbf3f88830e72b03.png",
     "static/media/project3.png": "/static/media/project3.cabd82c3de62a3a18575.png",
     "static/media/project2.png": "/static/media/project2.d502da2c2de4292de1f3.png",
     "static/media/project6_animation.gif": "/static/media/project6_animation.b4be2c7098e265cb9169.gif",
     "static/media/project9.jpeg": "/static/media/project9.b3284faba3d49e47e50a.jpeg",
     "static/media/project8.png": "/static/media/project8.f3855d50758114d3780b.png",
     "static/media/logo_stonybrook.png": "/static/media/logo_stonybrook.fa941cb590b39b782c80.png",
+    "static/media/project_mips.png": "/static/media/project_mips.202ad091779f48ffe7eb.png",
     "static/media/logo_amazon.png": "/static/media/logo_amazon.1e17c28fcb76ebd461e4.png",
     "static/media/logo_google.png": "/static/media/logo_google.cc591979bdb875cb5dcf.png",
     "index.html": "/index.html",
     "main.bfd48c89.css.map": "/static/css/main.bfd48c89.css.map",
-    "main.0630250d.js.map": "/static/js/main.0630250d.js.map"
+    "main.85b87058.js.map": "/static/js/main.85b87058.js.map"
   },
   "entrypoints": [
     "static/css/main.bfd48c89.css",
-    "static/js/main.0630250d.js"
+    "static/js/main.85b87058.js"
   ]
 }
