@@ -21,7 +21,7 @@ const projects = [
   {
     id: 10,
     category: "Neural Network",
-    link: "https://github.com/Sambhav101",
+    link: "https://github.com/Sambhav101/CSE_590_03_VLM",
     icon: "View Source",
     image: project_freq,
     gif: project_freq,
