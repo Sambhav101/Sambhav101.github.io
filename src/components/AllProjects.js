@@ -27,8 +27,8 @@ const projects = [
     gif: project_freq,
     title: "Frequency Prior for Image Generation",
     description:
-      "Fourier-based frequency priors for autoregressive image generation, improving model stability and visual quality",
-    tools: "PyTorch | OpenCV | CUDA | wandb",
+      "Autoregressive image generation using Fourier frequency priors over attention-based transformers",
+    tools: "PyTorch | CUDA | wandb",
   },
   {
     id: 11,
@@ -39,7 +39,7 @@ const projects = [
     gif: project_mips,
     title: "Pipelined MIPS Processor",
     description:
-      "32-bit five-stage pipelined MIPS processor with hazard detection, forwarding, stalling, and cache integration",
+      "32-bit pipelined MIPS processor with hazard detection, forwarding, and cache integration",
     tools: "Verilog",
   },
   {

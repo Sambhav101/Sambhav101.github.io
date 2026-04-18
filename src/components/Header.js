@@ -47,10 +47,10 @@ const Header = () => {
           <div className="about-contents">
             <p>Welcome to my Portfolio</p>
             <p>
-            I am an ML Infra Support Engineer at Meta with past 2 years experience as a 
-            Software Development Engineer at Amazon and Tarifica. With a deep passion for AI, problem-solving, 
-            and coding, I specialize in cloud computing & devops, AI model deployment, and distributed systems.
-            Furthermore, I enjoy hiking, snowboarding, and pondering questions of the universe.
+            I am currently pursuing a Master's at Stony Brook University and actively researching
+            systems engineering and AI. With experience at Meta, Amazon, and Tarifica, I specialize
+            in AI model infrastructure, distributed systems, and cloud computing.
+            I also enjoy hiking, snowboarding, and pondering questions of the universe.
             </p>
             <span>
               <a href="#education">

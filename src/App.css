@@ -637,6 +637,7 @@ colors: #00345d, #12293a */
   height: 35vmin;
   margin: auto;
   border-radius: 10px;
+  object-fit: cover;
 }
 
 .active {
