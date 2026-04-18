@@ -14,13 +14,15 @@ const EducationItem = ({ school }) => {
               <div className="school-info">
                 <p>{item.major}</p>
                 <p>{item.grad}</p>
-                <p>
-                  <strong>GPA {item.gpa}</strong>
-                </p>
+                {item.gpa && (
+                  <p>
+                    <strong>GPA {item.gpa}</strong>
+                  </p>
+                )}
               </div>
               <div className="courses">
                 <p>Relevant courses: {item.courses}</p>
-                <p>Awards: {item.awards}</p>
+                {item.awards && <p>Awards: {item.awards}</p>}
               </div>
             </div>
           </div>

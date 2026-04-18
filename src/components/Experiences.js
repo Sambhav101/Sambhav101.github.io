@@ -2,14 +2,13 @@ import logo_meta from "../images/logo_meta.png";
 import logo_tarifica from "../images/logo_tarifica.png";
 import logo_amazon from "../images/logo_amazon.png";
 import logo_microsoft from "../images/logo_microsoft.png";
-import logo_college from "../images/logo1.png";
 
 const experiences = [
   {
     id: 1,
     title: "ML Infra Support Engineer",
     company: "Meta / HCL Technologies",
-    duration: "March 2024 - Present",
+    duration: "March 2024 - July 2025",
     desc1:
       "Implemented monitoring systems and doctor tool to track model performance in production and set up alerting mechanisms for any model processing related errors like entropy explosions or deviations",
     desc2:
@@ -57,19 +56,6 @@ const experiences = [
       "Developed advanced regression and machine learning models in R to derive meaningful insights, and presented the findings through visually compelling and informative visualizations that communicated complex data-driven results to data scientists and Engineers",
     logo: logo_microsoft
   },
-  {
-    id: 5,
-    title: "IT Student Technician",
-    company: "St. Joseph's College",
-    duration: "Jan 2019 - June 2021",
-    desc1:
-      "Administered phone calls & used an online ticketing system to manage support actions and requests",
-    desc2:
-      "Resolved any tech issues through phone or direct communication by providing fine customer service",
-    desc3:
-      "Installed computers, projectors and tech networks in various campus events along with technicians",
-    logo: logo_college
-  }
 ];
 
 export default experiences;

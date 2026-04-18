@@ -1,27 +1,28 @@
 import logo1 from "../images/logo1.png";
-import logo2 from "../images/logo2.png";
+import logo2 from "../images/logo_stonybrook.png";
 
 const schools = [
   {
     id: 1,
-    title: "St. Joseph's College Brooklyn, NY",
-    major: "BS in Computer Science and BS in Mathematics",
-    grad: "2018 - 2022",
-    gpa: 3.97,
+    title: "Stony Brook University - SUNY",
+    major: "Master’s in Computer Science",
+    grad: "August 2025 - June 2027",
+    gpa: null,
     courses:
-      "Algorithms & Data Structures, Advanced Programming, Advanced Databases, Multivariable Calc, Linear Algebra",
-    awards: "SJC President’s Scholar, SJC Honors, Dean’s list",
-    logo: logo1,
+      "Computer Vision, Natural Language Processing, Quantum Computing, Computer Architecture & Assembly, Operating Systems",
+    awards: "",
+    logo: logo2,
   },
   {
     id: 2,
-    title: "St. Xavier's College Maitighar, Kathmandu",
-    major: "Diploma in General Science and Mathematics",
-    grad: "2015 - 2017",
-    gpa: 4.0,
-    courses: "Physics, Chemistry, Biology, Mathematics, English",
-    awards: "top 95th percentile in board exams",
-    logo: logo2,
+    title: "St. Joseph’s College New York",
+    major: "BS in Computer Science and Mathematics",
+    grad: "2018 - 2022",
+    gpa: 3.93,
+    courses:
+      "Advanced Algorithms & Programming, Advanced Databases, Multivariable Calculus, Linear Algebra, Probability & Statistics",
+    awards: "SJC President’s Scholar, SJC Honors, Dean’s list",
+    logo: logo1,
   },
 ];
 
