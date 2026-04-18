@@ -13,7 +13,8 @@ import project8_animation from "../images/project8.png";
 import project9 from "../images/project9.jpeg";
 import project9_animation from "../images/project9.jpeg";
 import project10 from "../images/project10.png";
-import project4 from "../images/project4.png";
+import project_freq from "../images/project_freq.png";
+import project_mips from "../images/project_mips.png";
 import logo_google from "../images/logo_google.png";
 
 const projects = [
@@ -22,8 +23,8 @@ const projects = [
     category: "Neural Network",
     link: "https://github.com/Sambhav101",
     icon: "View Source",
-    image: project4,
-    gif: project4,
+    image: project_freq,
+    gif: project_freq,
     title: "Frequency Prior for Autoregressive Image Generation",
     description:
       "Research on enhancing autoregressive image generation using Fourier-based frequency priors instead of attention-based transformers, improving model stability, convergence, and visual quality",
@@ -34,8 +35,8 @@ const projects = [
     category: "Systems",
     link: "https://github.com/Sambhav101",
     icon: "View Source",
-    image: project4,
-    gif: project4,
+    image: project_mips,
+    gif: project_mips,
     title: "Pipelined MIPS Processor with Hazard Detection",
     description:
       "32-bit five-stage pipelined MIPS processor with hazard detection, forwarding, stalling, and integrated instruction and data cache behavior",
