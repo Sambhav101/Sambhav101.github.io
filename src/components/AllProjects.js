@@ -33,7 +33,7 @@ const projects = [
   {
     id: 11,
     category: "Systems",
-    link: "https://github.com/Sambhav101",
+    link: "https://github.com/Sambhav101/Cache-enabled-Pipelined-MIPS-Processor",
     icon: "View Source",
     image: project_mips,
     gif: project_mips,
